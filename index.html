@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMate – Your Smart To‑Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="icon" type="image/png" href="images/apple-touch-icon.png" />
+</head>
+<body>
+    <div class="head" style="display: flex; justify-content: center;">
+        <h1 style="position: relative; top: 30px; color: whitesmoke;">TaskMate – Your Smart To‑Do List</h1>
+    </div>
+    <div class="container">
+         
+        <div class="box">
+           
+            <div class="info">
+         <h2>To-Do List</h2>
+         <img src="images/icon.png" alt="">
+         </div>
+         <div class="more-info">
+            <input type="text" id="input" placeholder="Enter your task">
+            <button onclick="Addtask()" class="btn">Add</button>
+            <p style="margin-top: 8px; margin-left: 8px; color: red; display: none;" class="para">You must write something! </p>
+         </div>
+         <ul class="list-container">
+            <!-- <li class="checked">task 1</li>
+            <li>task 2</li>
+            <li>task 3</li> -->
+         </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
